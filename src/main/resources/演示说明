@@ -1,0 +1,8 @@
+此项目演示的重点在于：
+	1、演示springmvc/ spring/ springdata/ jpa 之间是如何整合的【重点】
+	2、 演示sssp  整合以后，如何使用二级缓存【重点】
+	3、 restful 风格的处理
+	4、 参数校验虽然我们没有做，但是你应该具体的流程：
+			引入hibernate-validator jar 包
+			在实体类上面添加  校验注解
+			在handler 方法实体类参数前面添加 @validated ， 在参数后面添加  BindingResult 参数
